@@ -1,7 +1,7 @@
 {
   "downloadUrl": "https://raw.githubusercontent.com/wj576038874/android-update-version/master/extras/android-update-v2.0.apk",
   "versionCode": 2,
-  "versionDesc": "1. 新增XX新功能;\n2. 修复了已知Bug;\n3. 优化了性能。\n4、提升了用户体验",
+  "versionDesc": "1. 新增XX新功能;\n2. 修复了已知Bug;\n3. 优化了性能。\n4.提升了用户体验",
   "versionSize": "21MB",
   "versionName": "安卓版本更新demo V2.0"
 }
