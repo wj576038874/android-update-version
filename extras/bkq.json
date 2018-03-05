@@ -1,0 +1,94 @@
+{
+  "result": 1,
+  "data": [
+    {
+      "id": 4,
+      "name": "bkq04",
+      "data": "bkq04@gd_00",
+      "lng": "112.4000626",
+      "datatype": "dev",
+      "type": "4",
+      "lat": "23.1025887"
+    },
+    {
+      "id": 9,
+      "name": "bkq10",
+      "data": "bkq10@gd_00",
+      "lng": "113.2869186",
+      "datatype": "dev",
+      "type": "4",
+      "lat": "23.1008644"
+    },
+    {
+      "id": 11,
+      "name": "新港水手楼",
+      "context": "",
+      "data": "gzhstest01@gd_00",
+      "lng": "112.5722222",
+      "datatype": "dev",
+      "type": "4",
+      "lat": "23.5722222"
+    },
+    {
+      "id": 12,
+      "name": "广东局布控球终端01",
+      "context": "",
+      "data": "bkq111@gd_00",
+      "lng": "113.2872391",
+      "datatype": "dev",
+      "type": "4",
+      "lat": "23.1009369"
+    },
+    {
+      "id": 13,
+      "name": "东莞沙田海事处布控球",
+      "context": "",
+      "data": "bkq25@gd_00",
+      "lng": "113.5636978",
+      "datatype": "dev",
+      "type": "4",
+      "lat": "22.8556728"
+    },
+    {
+      "id": 14,
+      "name": "东莞海事局布控球",
+      "context": "",
+      "data": "bkq24@gd_00",
+      "lng": "113.5858231",
+      "datatype": "dev",
+      "type": "4",
+      "lat": "22.8750801"
+    },
+    {
+      "id": 15,
+      "name": "广东局布控球终端02",
+      "context": "",
+      "data": "bkq112@gd_00",
+      "lng": "113.2873306",
+      "datatype": "dev",
+      "type": "4",
+      "lat": "23.1009140"
+    },
+    {
+      "id": 16,
+      "name": "清远海事局布控球终端01",
+      "context": "",
+      "data": "bkq32@gd_00",
+      "lng": "113.1883545",
+      "datatype": "dev",
+      "type": "4",
+      "lat": "23.7272930"
+    },
+    {
+      "id": 17,
+      "name": "江门三埠海事处布控球",
+      "context": "",
+      "data": "bkq58@gd_00",
+      "lng": "112.7442169",
+      "datatype": "dev",
+      "type": "4",
+      "lat": "22.3898087"
+    }
+  ],
+  "msg": "查询成功!"
+}
