@@ -10,10 +10,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 
-/**
- * @author feicien (ithcheng@gmail.com)
- * @since 2016-07-05 19:25
- */
 public class HttpUtils {
 
 
