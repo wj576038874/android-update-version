@@ -16,6 +16,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.lang.reflect.Method;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
@@ -121,6 +122,7 @@ public class DownloadService extends IntentService {
 
 
     private void installAPk(Context context, File apkFile) {
+        collapsingNotification(context);
         Intent installAPKIntent = getApkInStallIntent(context, apkFile);
         startActivity(installAPKIntent);
     }
@@ -157,4 +159,23 @@ public class DownloadService extends IntentService {
         return uri;
     }
 
+    private static void collapsingNotification(Context context) {
+        Object service = context.getSystemService("statusbar");
+        if (null == service)
+            return;
+        try {
+            Class<?> clazz = Class.forName("android.app.StatusBarManager");
+            int sdkVersion = android.os.Build.VERSION.SDK_INT;
+            Method collapse;
+            if (sdkVersion <= 16) {
+                collapse = clazz.getMethod("collapse");
+            } else {
+                collapse = clazz.getMethod("collapsePanels");
+            }
+            collapse.setAccessible(true);
+            collapse.invoke(service);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
